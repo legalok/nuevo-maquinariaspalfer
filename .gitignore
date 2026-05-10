@@ -1,0 +1,106 @@
+# =============================================================================
+# Maquinarias PalFer — .gitignore
+# =============================================================================
+
+# ---- Environment / secrets --------------------------------------------------
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.env
+credentials.json
+*.pem
+*.key
+.credentials
+
+# ---- Node / Frontend --------------------------------------------------------
+node_modules/
+.pnp
+.pnp.js
+.yarn-integrity
+yarn-error.log
+yarn-debug.log
+npm-debug.log*
+.npm
+.eslintcache
+.cache
+
+# ---- Vite / build output ----------------------------------------------------
+dist/
+build/
+.vite/
+*.local
+
+# ---- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+.venv/
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---- App-generated runtime artefacts ----------------------------------------
+backend/.i18n_cache.json
+backend/.i18n_cache.json.tmp
+backend/dump.rdb
+.emergent/
+
+# ---- IDE / OS ---------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Logs -------------------------------------------------------------------
+*.log
+logs/
+
+# ---- Vercel -----------------------------------------------------------------
+.vercel
+.now
+
+# ---- Test / coverage --------------------------------------------------------
+test_reports/
+test_results.json
+coverage/
+
+# ---- Misc -------------------------------------------------------------------
+*.tmp
+*.bak
+-e 
+# Environment and credential files
+.env
+.env.*
+*.env
+credentials.json
+*.pem
+*.key
+.credentials
+-e 
+# Environment and credential files
+.env
+.env.*
+*.env
+credentials.json
+*.pem
+*.key
+.credentials
+-e 
+# Environment and credential files
+.env
+.env.*
+*.env
+credentials.json
+*.pem
+*.key
+.credentials
